@@ -3,12 +3,10 @@ Pod::Spec.new do |s|
   s.version          = "1.0"
   s.summary          = "一个测试cocopods库"
   s.description      = "一个使用OC实现的整数求和."
-  s.homepage         = "https://www.baidu.com"
-
+  s.homepage         = "https://github.com/chenjs92/cocopodsTest"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "chenjs92" => "chenjs92@icloud.com"}
   s.source           = { :git => "https://github.com/chenjs92/cocopodsTest.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/NAME'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface sumClass : NSObject
-
++ (int) sum:(int)A and:(int)B;
 @end

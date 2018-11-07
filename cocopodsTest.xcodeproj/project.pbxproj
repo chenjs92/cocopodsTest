@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		DEF80C0A2192925100BA9A80 /* cocopodsTest.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF80C082192925100BA9A80 /* cocopodsTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEF80C122192926200BA9A80 /* sumClass.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF80C102192926200BA9A80 /* sumClass.h */; };
+		DEF80C132192926200BA9A80 /* sumClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF80C112192926200BA9A80 /* sumClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEF80C052192925100BA9A80 /* cocopodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cocopodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF80C082192925100BA9A80 /* cocopodsTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocopodsTest.h; sourceTree = "<group>"; };
 		DEF80C092192925100BA9A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF80C102192926200BA9A80 /* sumClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sumClass.h; sourceTree = "<group>"; };
+		DEF80C112192926200BA9A80 /* sumClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sumClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				DEF80C082192925100BA9A80 /* cocopodsTest.h */,
+				DEF80C102192926200BA9A80 /* sumClass.h */,
+				DEF80C112192926200BA9A80 /* sumClass.m */,
 				DEF80C092192925100BA9A80 /* Info.plist */,
 			);
 			path = cocopodsTest;
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF80C0A2192925100BA9A80 /* cocopodsTest.h in Headers */,
+				DEF80C122192926200BA9A80 /* sumClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF80C132192926200BA9A80 /* sumClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

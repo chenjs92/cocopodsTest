@@ -9,5 +9,7 @@
 #import "sumClass.h"
 
 @implementation sumClass
-
++ (int) sum:(int)A and:(int)B{
+    return A+B;
+}
 @end

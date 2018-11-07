@@ -2,9 +2,7 @@ Pod::Spec.new do |s|
   s.name             = "cocopodsTest"
   s.version          = "1.0"
   s.summary          = "一个测试cocopods库"
-  s.description      = <<-DESC
-                       一个使用OC实现的整数求和.
-                       DESC
+  s.description      = "一个使用OC实现的整数求和."
   s.homepage         = "https://www.baidu.com"
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

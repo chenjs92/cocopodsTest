@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "cocopodsTest"
+  s.name             = "cocopodsTestcdl"
   s.version          = "1.0.1"
   s.summary          = "一个测试cocopods库"
   s.description      = "一个使用OC实现的整数求和."

@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEF80C0A2192925100BA9A80 /* cocopodsTest.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF80C082192925100BA9A80 /* cocopodsTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEF80C122192926200BA9A80 /* sumClass.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF80C102192926200BA9A80 /* sumClass.h */; };
-		DEF80C132192926200BA9A80 /* sumClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF80C112192926200BA9A80 /* sumClass.m */; };
+		DEF80C182192BED800BA9A80 /* cocopodsTest.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF80C142192BED800BA9A80 /* cocopodsTest.h */; };
+		DEF80C192192BED800BA9A80 /* sumClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF80C152192BED800BA9A80 /* sumClass.m */; };
+		DEF80C1A2192BED800BA9A80 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEF80C162192BED800BA9A80 /* Info.plist */; };
+		DEF80C1B2192BED800BA9A80 /* sumClass.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF80C172192BED800BA9A80 /* sumClass.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEF80C052192925100BA9A80 /* cocopodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cocopodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEF80C082192925100BA9A80 /* cocopodsTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocopodsTest.h; sourceTree = "<group>"; };
-		DEF80C092192925100BA9A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEF80C102192926200BA9A80 /* sumClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sumClass.h; sourceTree = "<group>"; };
-		DEF80C112192926200BA9A80 /* sumClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sumClass.m; sourceTree = "<group>"; };
+		DEF80C142192BED800BA9A80 /* cocopodsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cocopodsTest.h; path = cocopodsTest/cocopodsTest.h; sourceTree = "<group>"; };
+		DEF80C152192BED800BA9A80 /* sumClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sumClass.m; path = cocopodsTest/sumClass.m; sourceTree = "<group>"; };
+		DEF80C162192BED800BA9A80 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cocopodsTest/Info.plist; sourceTree = "<group>"; };
+		DEF80C172192BED800BA9A80 /* sumClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sumClass.h; path = cocopodsTest/sumClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +51,10 @@
 		DEF80C072192925100BA9A80 /* cocopodsTest */ = {
 			isa = PBXGroup;
 			children = (
-				DEF80C082192925100BA9A80 /* cocopodsTest.h */,
-				DEF80C102192926200BA9A80 /* sumClass.h */,
-				DEF80C112192926200BA9A80 /* sumClass.m */,
-				DEF80C092192925100BA9A80 /* Info.plist */,
+				DEF80C142192BED800BA9A80 /* cocopodsTest.h */,
+				DEF80C162192BED800BA9A80 /* Info.plist */,
+				DEF80C172192BED800BA9A80 /* sumClass.h */,
+				DEF80C152192BED800BA9A80 /* sumClass.m */,
 			);
 			path = cocopodsTest;
 			sourceTree = "<group>";
@@ -65,8 +66,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEF80C0A2192925100BA9A80 /* cocopodsTest.h in Headers */,
-				DEF80C122192926200BA9A80 /* sumClass.h in Headers */,
+				DEF80C182192BED800BA9A80 /* cocopodsTest.h in Headers */,
+				DEF80C1B2192BED800BA9A80 /* sumClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF80C1A2192BED800BA9A80 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEF80C132192926200BA9A80 /* sumClass.m in Sources */,
+				DEF80C192192BED800BA9A80 /* sumClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +267,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = cocopodsTest/Info.plist;
+				INFOPLIST_FILE = cocopodsTest/cocopodsTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenjs92.cocopodsTest;
@@ -285,7 +287,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = cocopodsTest/Info.plist;
+				INFOPLIST_FILE = cocopodsTest/cocopodsTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenjs92.cocopodsTest;
